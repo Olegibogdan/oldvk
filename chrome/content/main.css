@@ -12739,6 +12739,46 @@ body.blog_page .side_bar {
     text-align: right;
 }
 
+.friends_actions_menu { 
+z-index: 2; 
+}
+
+
+/*
+    Мне нравится
+*/
+
+.like_cont ._like:before { 
+content: 'Мне нравится '; 
+color: #7295b2; 
+font-family: Tahoma !important; 
+font-weight: 200 !important; 
+font-style: normal !important; 
+} 
+
+.reply_content ._like:before { 
+content: '' !important; 
+color: #7295b2; 
+}
+._like_btn, ._like:before {
+    content: 'Мне нравится';
+    color: #45688ef5;
+    margin-top: 0px;
+    margin-right: 5px;
+    font-family: Tahoma !important;
+    font-weight: 320 !important;
+    font-style: normal !important;
+}
+.like_wrap.lite 
+.like_cont ._like:before {
+    visibility: hidden;
+}
+
+._audio_section_tab__all .ui_tab:before {
+    content: "Мои аудиозаписи";
+    display: -webkit-inline-box;
+    padding-right: 95px;
+}
 /*
     ||=Temp=||
  */
