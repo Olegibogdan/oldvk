@@ -209,6 +209,39 @@ head.oldvk-market ~ body .search_filters_wrap:before,
     content: "Жазылушыларым"
 }
 
+/* Страницу */
+
+#profile_edit_act.flat_button.button_wide.secondary:after {
+   content: " страницу";
+}
+:lang(en-us) #profile_edit_act.flat_button.button_wide.secondary:after {
+   content: " page";
+}
+:lang(uk) #profile_edit_act.flat_button.button_wide.secondary:after {
+    content: " сторінку"
+}
+:lang(kk) #profile_edit_act.flat_button.button_wide.secondary:after {
+    content: " Бетті"
+}
+:lang(ru-ussr) #profile_edit_act.flat_button.button_wide.secondary:after {
+    content: " досье"
+}
+
+    /*like*/
+	
+:lang(en-us) .like_cont ._like:before {
+	    content: "I like";
+} 
+
+/* Мои аудиозаписи */
+ 
+:lang(en-us) ._audio_section_tab__all .ui_tab:before {
+	    content: "My audios";
+}
+:lang(uk) ._audio_section_tab__all .ui_tab:before {
+	    content: "Мої Аудіозаписи";
+}
+
 /* Фотографии с
  */
 
